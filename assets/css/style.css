@@ -1,0 +1,27 @@
+ body{
+    background-image: url("../images/backgound-lightgray.jpg");
+   }
+.myNameHeader {
+    margin-left: 150px;
+}
+ main{
+     background-color: white;
+     width: 960px;
+     margin-left: auto;
+     margin-right: auto;
+     position: centre; 
+ }  
+
+.navLinks{
+    float: right;
+    padding-right: 150px;
+}
+
+.myHeadShot{
+height: 300px;
+width: 200px;
+}
+
+h1 {
+    color: #4aaaa5;
+}
