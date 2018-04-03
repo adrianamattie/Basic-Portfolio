@@ -6,15 +6,17 @@
      margin-left: 150px;
      margin-right: 760px;
      margin-top: auto;
+     height: 55px;
      padding: 10px 30px;
      background-color: #4aaaa5;
      color: #666666;
      font-family: 'Georgia', Times, Times New Roman, serif;
+     text-align: center;
  }
 
      header {
          background-color: #ffffff;
-         height: 57px;
+         height: 75px;
          border-bottom: solid #dddddd;
          margin-bottom: 35px;
      }
