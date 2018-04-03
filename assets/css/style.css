@@ -4,7 +4,9 @@
 
  .myNameHeader {
      margin-left: 150px;
-     margin-right: 150px;
+     margin-right: 800px;
+     margin-top: auto;
+     padding: 10px 30px;
      background-color: #4aaaa5;
      color: #ffffff;
  }
@@ -27,6 +29,12 @@
      width: 200px;
  }
 
- h1 {
-     
- }
+.copyRight {
+    background-color: #666666;
+    height:44px;
+    margin-right: 150px;
+    margin-left: 150px;
+    text-align: center;
+    
+    
+}
