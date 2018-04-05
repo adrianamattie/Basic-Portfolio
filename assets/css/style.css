@@ -1,5 +1,7 @@
  body {
      background-image: url("../images/backgound-lightgray.jpg");
+     margin: 0px;
+     padding: 0px;
  }
 
  .myNameHeader {
@@ -7,7 +9,7 @@
      margin-right: 760px;
      margin-top: auto;
      height: 55px;
-     padding: 10px 30px;
+     padding: 15px 30px;
      background-color: #4aaaa5;
      color: #666666;
      font-family: 'Georgia', Times, Times New Roman, serif;
@@ -16,15 +18,15 @@
 
      header {
          background-color: #ffffff;
-         height: 75px;
+         height: 85px;
          border-bottom: solid #dddddd;
-         margin-bottom: 35px;
+         margin-bottom: 45px;
      }
  
 
  main {
      background-color: #ffffff;
-     width: 960px;
+     width: 850px;
      margin-left: auto;
      margin-right: auto;
      border: solid #dddddd
@@ -32,12 +34,20 @@
 
  .navLinks {
      float: right;
-     padding-right: 150px;
+     padding-right: 26px;
      margin-top: 8px;
-     font-family: 'Georgia', Times, Times New Roman, serif;
-     color: #ffffff;
+     
  }
 
+ a {
+    font-family: 'Georgia',
+    Times,
+    Times New Roman,
+    serif;
+    color: #dddddd;
+    text-decoration: none;
+    }
+    
  .myHeadShot {
      height: 200px;
      width: 200px;
