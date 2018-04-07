@@ -6,14 +6,14 @@
 
  .myNameHeader {
      margin-left: 150px;
-     margin-right: 760px;
+     width: 300px;
      margin-top: auto;
      height: 55px;
      padding: 15px 30px;
      background-color: #4aaaa5;
      color: #666666;
      font-family: 'Georgia', Times, Times New Roman, serif;
-     text-align: center;
+     line-height: 1.5;
  }
 
      header {
@@ -27,16 +27,23 @@
  main {
      background-color: #ffffff;
      width: 850px;
-     margin-left: auto;
+     margin-left: 150px;
      margin-right: auto;
-     border: solid #dddddd
+     border: solid #dddddd;
+     
  }
 
+.paragraphAboutMe{
+    padding-left: 5%;
+}
  .navLinks {
      float: right;
      padding-right: 26px;
      margin-top: 8px;
-     
+ }
+
+ .borderRight {
+     border-right: 2px solid #dddddd;
  }
 
  a {
@@ -46,23 +53,52 @@
     serif;
     color: #dddddd;
     text-decoration: none;
+    margin: 3px;
     }
     
+  .aboutMeHeader{
+      
+      font-family: 'Georgia',Times, Times New Roman,serif;
+      color: #4aaaa5;
+  }
+
+  .aboutMeSection {
+    border-bottom: solid #dddddd;
+    padding-top: 26;
+    margin-left: 5%;
+    margin-right: 5%;
+    /*how to shorten the border?*/
+    
+  }
+
  .myHeadShot {
-     height: 200px;
-     width: 200px;
+     height: 123px;
+     width: 123px;
+     padding-top: 26px;
+     padding-left: 5%;
  }
 
-.copyRight {
-    background-color: #666666;
-    height:44px;
-    text-align: center;
-    border-top: solid #4aaaa5 9px;
-      width:100%;
-      position: absolute;
-      left: 0;
-      bottom: 0;
+ .copyrightBox{
+width:100%;
+position: absolute;
+left: 0;
+bottom: 0;
+ background-color: #666666;
+ text-align: center;
+ /*vertical-align: baseline; this is not doing anything*/
+ height:44px;
+  border-top: solid #4aaaa5 9px;
+  line-height: 10px;
+ }
+
+ 
+
+    
+      
     
     
+         
+         
+         
     
 }
