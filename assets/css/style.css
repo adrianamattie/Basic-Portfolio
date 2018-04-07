@@ -16,6 +16,36 @@
      line-height: 1.5;
  }
 
+form {
+    font-family: 'Georgia',
+    Times,
+    Times New Roman,
+    serif;
+    color: lightgray;
+   padding: 20px;
+   
+}
+
+ .submitButton{
+     color: white;
+     background-color: #4aaaa5;
+     height: 30px;
+     width: 80px;
+     margin-left: 20px;
+     margin-bottom: 20px;
+ }
+
+ input {
+padding: 5px;
+ }
+ 
+textarea {
+    width: 100%;
+    height: 200px;
+    
+}
+ 
+
      header {
          background-color: #ffffff;
          height: 85px;
@@ -35,6 +65,7 @@
 
 .paragraphAboutMe{
     padding-left: 5%;
+
 }
  .navLinks {
      float: right;
@@ -60,16 +91,11 @@
       
       font-family: 'Georgia',Times, Times New Roman,serif;
       color: #4aaaa5;
+      margin-left: 20px;
+      border-bottom: 2px solid lightgray;
   }
 
-  .aboutMeSection {
-    border-bottom: solid #dddddd;
-    padding-top: 26;
-    margin-left: 5%;
-    margin-right: 5%;
-    /*how to shorten the border?*/
-    
-  }
+  
 
  .myHeadShot {
      height: 123px;
