@@ -46,7 +46,6 @@
  textarea {
      width: 100%;
      height: 150px;
-   
  }
 
  header {
@@ -69,7 +68,7 @@
 
  .paragraphAboutMe {
      margin-left: 26px;
-     padding-bottom: 200px /*delete*/
+     height: 50px, auto;
  }
 
  .navLinks {
@@ -140,6 +139,3 @@
      top: 419px;
      text-align: center;
  }
-
- 
-
