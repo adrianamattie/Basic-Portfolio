@@ -27,6 +27,14 @@
      background-color: #4aaaa5;
      height: 30px;
      width: 80px;
+     margin: 20px;
+ }
+
+ button {
+     color: white;
+     background-color: #4aaaa5;
+     height: 30px;
+     width: 80px;
      margin-left: 20px;
      margin-bottom: 20px;
  }
@@ -37,7 +45,8 @@
 
  textarea {
      width: 100%;
-     height: 200px;
+     height: 150px;
+   
  }
 
  header {
@@ -51,18 +60,16 @@
      background-color: #ffffff;
      width: 850px;
      margin-left: 150px;
-     margin-right: auto;
-     margin-bottom: auto;
+     margin-right: 0 auto;
+     margin-bottom: 0 auto;
      border: solid #dddddd;
-
-    overflow: hidden;
-
+     padding-right: 20px;
+     overflow: hidden;
  }
 
  .paragraphAboutMe {
      margin-left: 26px;
-
-     
+     padding-bottom: 200px /*delete*/
  }
 
  .navLinks {
@@ -102,17 +109,37 @@
  .copyrightBox {
      width: 100%;
      position: absolute;
-     left: 0;
-     bottom: 0;
+     left: 0 auto;
+     bottom: 0 auto;
      background-color: #666666;
      text-align: center;
      /*vertical-align: baseline; this is not doing anything*/
      height: 44px;
      border-top: solid #4aaaa5 9px;
      line-height: 10px;
+     top: 100%;
  }
 
  a:hover {
      background-color: #86ccc8;
-     
  }
+
+ /*this is for the Portfolio page*/
+
+ .placeholder {
+     height: 250px;
+     width: 250px;
+ }
+
+ .placeholder1 {
+     height: auto;
+     width: 240px;
+     padding: 5px;
+     background-color: #666666;
+     position: absolute;
+     top: 419px;
+     text-align: center;
+ }
+
+ 
+
