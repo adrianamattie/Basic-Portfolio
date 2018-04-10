@@ -107,16 +107,15 @@
 
  .copyrightBox {
      width: 100%;
-     position: absolute;
-     left: 0 auto;
-     bottom: 0 auto;
+     position: fixed;
+     left: 0;
+     bottom: 0;
      background-color: #666666;
      text-align: center;
      /*vertical-align: baseline; this is not doing anything*/
      height: 44px;
      border-top: solid #4aaaa5 9px;
      line-height: 10px;
-     top: 100%;
  }
 
  a:hover {
